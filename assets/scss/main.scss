@@ -1,0 +1,21 @@
+//abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+//vendors
+//@import "vendor/bootstrap-4.5.0/bootstrap.scss";
+@import "bootstrap_4.5.0-override";
+//base
+@import "base/reset";
+@import "base/typography";
+//layout
+@import "layout/header";
+@import "layout/main";
+//components
+@import "components/buttons";
+@import "components/cards";
+@import "components/navigation";
+@import "components/thumbnails";
+//pages
+@import "pages/index.scss";
+//themes
+@import "themes/themes";

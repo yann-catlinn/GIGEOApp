@@ -1,0 +1,10 @@
+.hero {
+    background-image: url("../images/image-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 6.875rem;
+    @include respond-to($bp-lg) {
+        height: 12.5rem;
+    }
+}

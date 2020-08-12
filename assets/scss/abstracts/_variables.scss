@@ -1,0 +1,56 @@
+//Google Font: Montserrat (Regular400, Medium500, Bold700)/ Open Sans (Light300, Regular400)/ Poppins (Light300, Medium500)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@300;400&family=Poppins:wght@300;500&display=swap');
+// Tipography
+// Font Family and Font Weights
+$montserrat: 'Montserrat',
+sans-serif;
+$montserrat-regular: 400;
+$montserrat-medium: 500;
+$montserrat-bold: 700;
+//
+$openSans: 'Open Sans',
+sans-serif;
+$openSans-light: 300;
+$openSans-regular: 400;
+//
+$poppins: 'Poppins',
+sans-serif;
+$poppins-light: 300;
+$poppins-medium: 500;
+//Font Sizes
+$xxxsmall:12px;
+$xxsmall: 13px;
+$xsmall: 14px;
+$small: 18px;
+$medium:19px;
+$large: 20px;
+$xlarge: 22px;
+$xxlarge: 26px;
+$xxxlarge: 28px;
+$xxxxlarge: 32px;
+$extralarge: 42px;
+//Color Scheme Primary
+$white: #fff;
+$lightGray: #808080;
+$gray: #55595c;
+$paragraphGray: #4c4c4c;
+$almostBlack: #272727;
+$deepGray: #001514;
+$black: #000;
+//Color Scheme Secondary
+$aqcuamarine: #92dce5;
+$watermelon: #ef6361;
+
+/*Media queries*/
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+$bp-sm:576px;
+// Medium devices (tablets, 768px and up)
+$bp-md:768px;
+// Large devices (desktops, 992px and up)
+$bp-lg:992px;
+// Extra large devices (large desktops, 1200px and up)
+$bp-xl:1200px;
+//

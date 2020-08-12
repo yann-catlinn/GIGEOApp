@@ -1,0 +1,18 @@
+.navbar-brand {
+    color: $deepGray;
+    @include respond-to($bp-lg) {
+        sup {
+            top: -1em;
+        }
+    }
+}
+
+sup {
+    vertical-align: super;
+    top: -1.5em;
+    color: $almostBlack;
+}
+
+.toggler__icon {
+    color: $gray;
+}

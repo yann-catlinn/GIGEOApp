@@ -1,0 +1,14 @@
+.contact {
+    grid-column-gap: 1.25rem;
+    &__btn {
+        width: 5.625rem;
+        color: $white;
+        border-radius: 0em;
+        &--color_message {
+            background-color: $aqcuamarine;
+        }
+        &--color_follow {
+            background-color: $watermelon;
+        }
+    }
+}

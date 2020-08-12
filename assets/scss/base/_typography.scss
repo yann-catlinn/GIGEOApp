@@ -1,0 +1,78 @@
+/* Base Typography*/
+
+//navigation
+.navbar-brand {
+    font-family: $poppins;
+    font-size: $extralarge;
+    @include respond-to($bp-lg) {
+        font-size: $xxxxlarge;
+    }
+}
+
+sup {
+    font-size: $xxxsmall;
+    font-family: $openSans-regular;
+}
+
+//author
+.author {
+    &__summary {
+        h2 {
+            font-family: $poppins;
+            font-weight: 600;
+            font-size: $xxxlarge;
+        }
+        p {
+            font-size: $small;
+            font-family: $openSans;
+        }
+        @include respond-to($bp-lg) {
+            h2 {
+                font-size: $large;
+            }
+            p {
+                font-size: $xxsmall;
+            }
+        }
+    }
+}
+
+//button
+.contact {
+    font-family: $montserrat;
+    &__btn {
+        font-size: $xsmall;
+    }
+}
+
+//main
+.main {
+    font-family: $montserrat;
+    &__title h2 {
+        font-size: $xxxlarge;
+    }
+    @include respond-to($bp-lg) {
+        h2 {
+            font-size: $xxlarge;
+        }
+    }
+}
+
+//article **cards
+.article {
+    &__title {
+        font-weight: 800;
+        font-size: $xlarge;
+    }
+    &__review {
+        font-size: $medium;
+    }
+    @include respond-to($bp-lg) {
+        &__title {
+            font-size: $small;
+        }
+        &__review {
+            font-size: $xsmall;
+        }
+    }
+}

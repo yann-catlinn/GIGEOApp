@@ -1,0 +1,16 @@
+//article's author row
+.author {
+    &__summary {
+        height: 6.25rem;
+        margin: 0 auto;
+        padding: 0;
+        h2 {
+            color: $deepGray;
+            margin: 0;
+        }
+        p {
+            color: $lightGray;
+            margin: 0;
+        }
+    }
+}
